@@ -1,52 +1,22 @@
-.bakgrund
-{
-   background-color: #800000;
-}
-
-.Textboxar
-{
- background-color: white;   
- border: solid black;
- margin: 1%;
-}
-
-.Boxar 
-{
-    background-color: #F5F5DC;
-    border: solid black;
-}
-
-.Rubriken
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#Rubrik
-{
-border: solid black 2px;
-padding-left: 25vw;
-padding-right: 25vw;
-padding-top: 3vh;
-padding-bottom: 3vh;
-
-}
-
 .Struktur
 {
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 3fr 2fr;
 }
 
-.Behållare
+.Box
 {
-border: solid black 2px;
-}
-
-.Förstabilden
-{
-    max-height: 400px;
     border: solid black;
+}
+
+.TextBox
+{
+    border: solid black;
+    margin: 2%;
+}
+
+.FörstaBilden
+{
+    max-width: 50vw;
 }
