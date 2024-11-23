@@ -10,25 +10,31 @@
 .Box
 {
     border: solid black;
-    min-height: 2vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .RubrikTextBox
 {
     border: solid black;
+    max-height: 100%;
     margin: 2%;
 }
 
 #Rubrik
 {
     margin: 5%;
+    font-size: 3vw;
 }
 
 .MatInfoTextBox
 {
     border: solid black;
-    padding-bottom: 47%;    
-    margin: 2%;
+    height: 100%;  
+    margin: 2%; 
+    font-size: 1.5vw;
+
 }
 
 .TextBox
