@@ -2,7 +2,7 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
     padding: 10%;
     gap: 2%;
 }
@@ -29,6 +29,13 @@
     font-size: 3vw;
 }
 
+#IngredienserRubrik
+{  
+    margin: auto;
+    margin-top: 2%;
+    font-size: 2vw;
+}
+
 .MatInfoTextBox
 {
     border: solid black;
@@ -41,25 +48,23 @@
 {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1sfr;
     border: solid black;
-    height: 100%;  
     margin: 2%;
+    height: 100%;
 }
 
 .IngredienserTextBox
 {
-    border: solid black;
     font-size: 1.5vw;
+    max-width: 100%;
+    margin: auto;
 }
 
 .IngredienserBilder
 {
-    max-height: 15vh;
-    width: auto;
-    margin-left: 5vh;
-    border: solid black;
-
+max-height: 75%;
+max-width: 100%;
+padding-left: 33%;
 }
 
 .ReceptTextBox
