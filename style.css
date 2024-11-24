@@ -1,85 +1,145 @@
+body
+{
+    margin: 0;
+}
+
+#Top
+{
+    background-color: brown;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0;
+}
+
+#HuvudRubrik
+{
+display: flex;
+justify-content: center;
+padding-bottom: 1.5%;
+border: solid black;
+margin-left: 30%;
+margin-right: 30%;
+padding-top: 1.5%;
+background-color: white;
+}
+
 .Struktur
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     grid-template-rows: 1fr 1.5fr;
-    padding: 10%;
-    gap: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .Box
 {
     border: solid black;
+    background-color: bisque    ;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    height: 100%;
+    width: 100%;
+}
+
+.VanligText
+{
+    font-size:large;
 }
 
 
-
-.RubrikTextBox
+#MatInfoBox
 {
     border: solid black;
-    max-height: 100%;
+    background-color: white;
+    height: 100%;
     margin: 2%;
 }
 
-#Rubrik
+#MaträttBild
 {
-    margin: 5%;
-    font-size: 3vw;
+    border: solid black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
 }
 
-#IngredienserRubrik
+.h2Rubrik
 {  
     margin: auto;
     margin-top: 2%;
-    font-size: 2vw;
 }
 
-.MatInfoTextBox
+#PortionText
 {
-    border: solid black;
-    height: 100%;  
-    margin: 2%; 
-    font-size: 1.5vw;
+    margin: auto;  
+    font-size:large;
 }
 
-.IngredienserBox
+#IngredienserLista
 {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 0.5fr 2fr;
     border: solid black;
+    background-color: white;
     margin: 2%;
     height: 100%;
 }
 
-.IngredienserTextBox
+.IngrediensBox
 {
-    font-size: 1.5vw;
-    max-width: 100%;
+    border: solid black;
+    background-color:  rgb(237, 237, 237);
+    margin-right: 8%;
+    padding: 3%;
+    font-size:large;
+    
+
+}
+
+.IngrediensBild
+{
+    max-height: 50px;
     margin: auto;
 }
 
-.IngredienserBilder
-{
-max-height: 75%;
-max-width: 100%;
-padding-left: 33%;
-}
-
-.ReceptTextBox
+.ReceptBox
 {
     border: solid black;
-    height: 100%;  
-    margin: 2%; 
-    font-size: 1.5vw;
-}
-
-.FörstaBilden
-{
-    border: solid black;
-    max-width: 50vw;
+    background-color: white;
     height: 100%;
-    justify-content: space-evenly;
-    object-fit: cover;
+    margin: 2%;
+    display: grid;
+}
+
+.ReceptText
+{
+    border: solid black;  
+    background-color:  rgb(237, 237, 237);
+    margin-right: 8%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 2%;
+    font-size:large;
+}
+
+#Bottom
+{
+    background-color: brown;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#KontaktUppgifter
+{
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    margin-left: 5%;
 }
