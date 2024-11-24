@@ -139,7 +139,11 @@ background-color: white;
 
 #KontaktUppgifter
 {
+    border: solid black;  
+    background-color: white;
     padding-bottom: 1.5%;
     padding-top: 1.5%;
     margin-left: 5%;
+    margin-right: 70%;
+
 }
