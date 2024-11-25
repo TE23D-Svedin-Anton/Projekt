@@ -24,6 +24,26 @@ padding-top: 1.5%;
 background-color: white;
 }
 
+#TipsBox
+{
+    border: solid black;
+    background-color: bisque    ;
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#TipsTextBox
+{
+    border: solid black;
+    background-color: white;
+    height: 100%;
+    margin: 2%;
+}
+
 .Struktur
 {
     display: grid;
@@ -51,6 +71,7 @@ background-color: white;
 .VanligText
 {
     font-size:large;
+    justify-content: center;
 }
 
 
